@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+#add-screen{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    padding: 1rem;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+#list-books{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+#list-books li{
+    border: solid 1px black ;
+    padding: 1rem;
+}
